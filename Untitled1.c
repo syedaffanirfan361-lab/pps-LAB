@@ -1,8 +1,12 @@
-#include<stdio.h)
+#include<stdio.h>
 int main()
-
-{    int a;
-     printf("type the number0");
-     scanf("%d",&a);
-     if (a%2==0)
-{}
+{
+    int a[5],i,sum=0;
+    for(i=0;i<5;i++)
+    {
+        scanf("%d",&a[i]);
+        sum+=a[i];
+    }
+    printf("%d\n",sum);
+    return 0;
+}
